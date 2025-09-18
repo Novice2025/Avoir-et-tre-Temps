@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Conjugação: Avoir e Être</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #141414;
+            color: #e5e5e5;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .highlight-green {
+            color: #a7f3d0;
+            font-weight: 600;
+        }
+        .highlight-blue {
+            color: #87ceeb;
+            font-weight: 600;
+        }
+        .table-custom {
+            border-collapse: collapse;
+        }
+        .table-custom th, .table-custom td {
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: left;
+        }
+        .table-custom th {
+            background-color: #2a2a2a;
+            color: #E50914;
+        }
+        .table-custom tr:nth-child(even) {
+            background-color: #1c1c1c;
+        }
+        .table-custom tr:hover {
+            background-color: #222;
+        }
+        .quiz-option {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            transition: all 0.3s;
+        }
+        .quiz-option:hover {
+            background-color: #333;
+        }
+        .quiz-option input:checked + label {
+            background-color: #E50914;
+            color: #fff;
+            font-weight: 600;
+        }
+        .quiz-option input {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-[#141414] text-gray-200">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center my-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-2">Conjugando <span class="text-[#E50914]">Avoir</span> e <span class="text-[#E50914]">Être</span></h1>
+            <p class="text-lg text-gray-400">Os verbos mais importantes do francês em quatro tempos verbais</p>
+        </header>
+
+        <div class="bg-[#1c1c1c] rounded-xl shadow-2xl p-6 md:p-8">
+
+            <p class="mb-6">
+                <strong class="text-white">Avoir</strong> (ter) e <strong class="text-white">Être</strong> (ser/estar) são a base do francês. Dominar a conjugação deles é essencial para se comunicar.
+            </p>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">1. Présent de l'Indicatif (Presente)</h2>
+            <p class="mb-4">
+                Usado para falar sobre ações no momento, hábitos ou verdades gerais.
+            </p>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Avoir</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">j'ai</span></td>
+                            <td><span class="highlight-blue">[jei]</span></td>
+                            <td>Eu tenho</td>
+                            <td>J'<span class="highlight-green">ai</span> faim.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">tu as</span></td>
+                            <td><span class="highlight-blue">[tu á]</span></td>
+                            <td>Tu tens</td>
+                            <td>Tu <span class="highlight-green">as</span> un livre.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">il a</span></td>
+                            <td><span class="highlight-blue">[il á]</span></td>
+                            <td>Ele/Ela tem</td>
+                            <td>Il <span class="highlight-green">a</span> froid.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">nous avons</span></td>
+                            <td><span class="highlight-blue">[nu zavon]</span></td>
+                            <td>Nós temos</td>
+                            <td>Nous <span class="highlight-green">avons</span> une maison.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">vous avez</span></td>
+                            <td><span class="highlight-blue">[vu zavê]</span></td>
+                            <td>Vocês têm</td>
+                            <td>Vous <span class="highlight-green">avez</span> une question?</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ils ont</span></td>
+                            <td><span class="highlight-blue">[il zon]</span></td>
+                            <td>Eles/Elas têm</td>
+                            <td>Ils <span class="highlight-green">ont</span> de la chance.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Être</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">je suis</span></td>
+                            <td><span class="highlight-blue">[je suí]</span></td>
+                            <td>Eu sou / Eu estou</td>
+                            <td>Je <span class="highlight-green">suis</span> brésilien.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">tu es</span></td>
+                            <td><span class="highlight-blue">[tu ê]</span></td>
+                            <td>Tu és / Tu estás</td>
+                            <td>Tu <span class="highlight-green">es</span> content.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">il est</span></td>
+                            <td><span class="highlight-blue">[il ê]</span></td>
+                            <td>Ele/Ela é / Ele/Ela está</td>
+                            <td>Il <span class="highlight-green">est</span> médecin.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">nous sommes</span></td>
+                            <td><span class="highlight-blue">[nu som]</span></td>
+                            <td>Nós somos / Nós estamos</td>
+                            <td>Nous <span class="highlight-green">sommes</span> en France.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">vous êtes</span></td>
+                            <td><span class="highlight-blue">[vu zêt]</span></td>
+                            <td>Vocês são / Vocês estão</td>
+                            <td>Vous <span class="highlight-green">êtes</span> fatigué?</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ils sont</span></td>
+                            <td><span class="highlight-blue">[il son]</span></td>
+                            <td>Eles/Elas são / Eles/Elas estão</td>
+                            <td>Elles <span class="highlight-green">sont</span> jolies.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">2. Passé Composé (Passado)</h2>
+            <p class="mb-4">
+                Usado para descrever ações pontuais e concluídas no passado.
+            </p>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Avoir</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai eu</span></td>
+                            <td><span class="highlight-blue">[ei u]</span></td>
+                            <td>Eu tive</td>
+                            <td>J'<span class="highlight-green">ai eu</span> une bonne idée.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as eu</span></td>
+                            <td><span class="highlight-blue">[á u]</span></td>
+                            <td>Tu tiveste</td>
+                            <td>Tu <span class="highlight-green">as eu</span> de la chance.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a eu</span></td>
+                            <td><span class="highlight-blue">[á u]</span></td>
+                            <td>Ele/Ela teve</td>
+                            <td>Il <span class="highlight-green">a eu</span> peur.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons eu</span></td>
+                            <td><span class="highlight-blue">[avon u]</span></td>
+                            <td>Nós tivemos</td>
+                            <td>Nous <span class="highlight-green">avons eu</span> un problème.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez eu</span></td>
+                            <td><span class="highlight-blue">[avê u]</span></td>
+                            <td>Vocês tiveram</td>
+                            <td>Vous <span class="highlight-green">avez eu</span> faim?</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont eu</span></td>
+                            <td><span class="highlight-blue">[on u]</span></td>
+                            <td>Eles/Elas tiveram</td>
+                            <td>Elles <span class="highlight-green">ont eu</span> un bon voyage.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Être</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">ai été</span></td>
+                            <td><span class="highlight-blue">[ei etê]</span></td>
+                            <td>Eu fui / Eu estive</td>
+                            <td>J'<span class="highlight-green">ai été</span> malade.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">as été</span></td>
+                            <td><span class="highlight-blue">[á etê]</span></td>
+                            <td>Tu foste / Tu estiveste</td>
+                            <td>Tu <span class="highlight-green">as été</span> gentil.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">a été</span></td>
+                            <td><span class="highlight-blue">[á etê]</span></td>
+                            <td>Ele/Ela foi / Ele/Ela esteve</td>
+                            <td>Il <span class="highlight-green">a été</span> content.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avons été</span></td>
+                            <td><span class="highlight-blue">[avon etê]</span></td>
+                            <td>Nós fomos / Nós estivemos</td>
+                            <td>Nous <span class="highlight-green">avons été</span> au marché.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">avez été</span></td>
+                            <td><span class="highlight-blue">[avê etê]</span></td>
+                            <td>Vocês foram / Vocês estiveram</td>
+                            <td>Vous <span class="highlight-green">avez été</span> surpris.</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">ont été</span></td>
+                            <td><span class="highlight-blue">[on etê]</span></td>
+                            <td>Eles/Elas foram / Eles/Elas estiveram</td>
+                            <td>Ils <span class="highlight-green">ont été</span> en retard.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">3. Imparfait (Pretérito Imperfeito)</h2>
+            <p class="mb-4">
+                Usado para descrever hábitos ou situações contínuas no passado.
+            </p>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Avoir</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">avais</span></td>
+                            <td><span class="highlight-blue">[avê]</span></td>
+                            <td>Eu tinha</td>
+                            <td>J'<span class="highlight-green">avais</span> un chien.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">avais</span></td>
+                            <td><span class="highlight-blue">[avê]</span></td>
+                            <td>Tu tinhas</td>
+                            <td>Tu <span class="highlight-green">avais</span> de beaux cheveux.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">avait</span></td>
+                            <td><span class="highlight-blue">[avê]</span></td>
+                            <td>Ele/Ela tinha</td>
+                            <td>Il <span class="highlight-green">avait</span> 10 ans.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">avions</span></td>
+                            <td><span class="highlight-blue">[avion]</span></td>
+                            <td>Nós tínhamos</td>
+                            <td>Nous <span class="highlight-green">avions</span> un chat.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">aviez</span></td>
+                            <td><span class="highlight-blue">[aviê]</span></td>
+                            <td>Vocês tinham</td>
+                            <td>Vous <span class="highlight-green">aviez</span> l'air triste.</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">avaient</span></td>
+                            <td><span class="highlight-blue">[avê]</span></td>
+                            <td>Eles/Elas tinham</td>
+                            <td>Elles <span class="highlight-green">avaient</span> soif.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Être</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">étais</span></td>
+                            <td><span class="highlight-blue">[etê]</span></td>
+                            <td>Eu era / Eu estava</td>
+                            <td>J'<span class="highlight-green">étais</span> étudiant.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">étais</span></td>
+                            <td><span class="highlight-blue">[etê]</span></td>
+                            <td>Tu eras / Tu estavas</td>
+                            <td>Tu <span class="highlight-green">étais</span> mon ami.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">était</span></td>
+                            <td><span class="highlight-blue">[etê]</span></td>
+                            <td>Ele/Ela era / Ele/Ela estava</td>
+                            <td>Il <span class="highlight-green">était</span> en vacances.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">étions</span></td>
+                            <td><span class="highlight-blue">[etiõ]</span></td>
+                            <td>Nós éramos / Nós estávamos</td>
+                            <td>Nous <span class="highlight-green">étions</span> en ville.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">étiez</span></td>
+                            <td><span class="highlight-blue">[etiê]</span></td>
+                            <td>Vocês eram / Vocês estavam</td>
+                            <td>Vous <span class="highlight-green">étiez</span> très jeunes.</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">étaient</span></td>
+                            <td><span class="highlight-blue">[etê]</span></td>
+                            <td>Eles/Elas eram / Eles/Elas estavam</td>
+                            <td>Ils <span class="highlight-green">étaient</span> heureux.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">4. Futur de l'Indicatif (Futuro)</h2>
+            <p class="mb-4">
+                Usado para expressar ações que acontecerão no futuro.
+            </p>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Avoir</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>J'</td>
+                            <td><span class="highlight-green">aurai</span></td>
+                            <td><span class="highlight-blue">[orrei]</span></td>
+                            <td>Eu terei</td>
+                            <td>J'<span class="highlight-green">aurai</span> 30 ans.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">auras</span></td>
+                            <td><span class="highlight-blue">[orrá]</span></td>
+                            <td>Tu terás</td>
+                            <td>Tu <span class="highlight-green">auras</span> un grand jardin.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">aura</span></td>
+                            <td><span class="highlight-blue">[orrá]</span></td>
+                            <td>Ele/Ela terá</td>
+                            <td>Il <span class="highlight-green">aura</span> le temps.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">aurons</span></td>
+                            <td><span class="highlight-blue">[oron]</span></td>
+                            <td>Nós teremos</td>
+                            <td>Nous <span class="highlight-green">aurons</span> une chance.</td>
+                        </tr>
+                        <tr>
+                            <td>Você</td>
+                            <td><span class="highlight-green">aurez</span></td>
+                            <td><span class="highlight-blue">[orê]</span></td>
+                            <td>Vocês terão</td>
+                            <td>Vous <span class="highlight-green">aurez</span> des enfants.</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">auront</span></td>
+                            <td><span class="highlight-blue">[oron]</span></td>
+                            <td>Eles/Elas terão</td>
+                            <td>Elles <span class="highlight-green">auront</span> un bon travail.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="overflow-x-auto rounded-lg shadow-xl mb-8">
+                <table class="table-custom w-full">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Pronome</th>
+                            <th class="w-1/5">Verbo Être</th>
+                            <th class="w-1/5">Pronúncia</th>
+                            <th class="w-1/5">Tradução</th>
+                            <th class="w-1/5">Exemplo de Frase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Je</td>
+                            <td><span class="highlight-green">serai</span></td>
+                            <td><span class="highlight-blue">[serrei]</span></td>
+                            <td>Eu serei / Eu estarei</td>
+                            <td>Je <span class="highlight-green">serai</span> là.</td>
+                        </tr>
+                        <tr>
+                            <td>Tu</td>
+                            <td><span class="highlight-green">seras</span></td>
+                            <td><span class="highlight-blue">[será]</span></td>
+                            <td>Tu serás / Tu estarás</td>
+                            <td>Tu <span class="highlight-green">seras</span> un bon père.</td>
+                        </tr>
+                        <tr>
+                            <td>Il / Elle / On</td>
+                            <td><span class="highlight-green">sera</span></td>
+                            <td><span class="highlight-blue">[será]</span></td>
+                            <td>Ele/Ela será / Ele/Ela estará</td>
+                            <td>Elle <span class="highlight-green">sera</span> à la maison.</td>
+                        </tr>
+                        <tr>
+                            <td>Nous</td>
+                            <td><span class="highlight-green">serons</span></td>
+                            <td><span class="highlight-blue">[seron]</span></td>
+                            <td>Nós seremos / Nós estaremos</td>
+                            <td>Nous <span class="highlight-green">serons</span> en retard.</td>
+                        </tr>
+                        <tr>
+                            <td>Vous</td>
+                            <td><span class="highlight-green">serez</span></td>
+                            <td><span class="highlight-blue">[serê]</span></td>
+                            <td>Vocês serão / Vocês estarão</td>
+                            <td>Vous <span class="highlight-green">serez</span> prêts.</td>
+                        </tr>
+                        <tr>
+                            <td>Ils / Elles</td>
+                            <td><span class="highlight-green">seront</span></td>
+                            <td><span class="highlight-blue">[seron]</span></td>
+                            <td>Eles/Elas serão / Eles/Elas estarão</td>
+                            <td>Ils <span class="highlight-green">seront</span> contents.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            ---
+
+            <h2 class="text-3xl font-bold text-[#E50914] mb-4">5. Atividade Interativa: Teste seus Conhecimentos!</h2>
+            <p class="mb-6 text-gray-400">Escolha a conjugação correta para completar cada frase.</p>
+
+            <div class="bg-[#2a2a2a] p-6 rounded-xl shadow-xl">
+                <div id="quiz-container">
+                    <div class="mb-4">
+                        <p id="question-text" class="text-lg font-semibold text-white"></p>
+                    </div>
+                    <div id="options-container" class="flex flex-col space-y-2">
+                        <!-- Opções do quiz serão geradas aqui pelo JS -->
+                    </div>
+                    <button id="check-button" class="mt-4 w-full bg-[#E50914] text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition-all">
+                        Verificar Resposta
+                    </button>
+                    <div id="feedback" class="mt-4 text-center text-lg font-bold"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizData = [
+                {
+                    question: "J'_____ soif.",
+                    options: ["ai", "est", "sommes", "as"],
+                    answer: "ai"
+                },
+                {
+                    question: "Tu _____ mon ami.",
+                    options: ["est", "suis", "es", "êtes"],
+                    answer: "es"
+                },
+                {
+                    question: "Nous _____ fatigués hier.",
+                    options: ["avons été", "sommes été", "avons", "êtes"],
+                    answer: "avons été"
+                },
+                {
+                    question: "Il _____ une grande maison l'année dernière.",
+                    options: ["auras", "a eu", "a été", "avait"],
+                    answer: "avait"
+                },
+                {
+                    question: "Elles _____ bientôt à Paris.",
+                    options: ["serai", "seront", "seras", "serez"],
+                    answer: "seront"
+                },
+                {
+                    question: "Vous _____ 20 ans l'année prochaine.",
+                    options: ["avez", "aurons", "aurez", "auras"],
+                    answer: "aurez"
+                },
+                {
+                    question: "Elle _____ un chat noir.",
+                    options: ["a", "est", "sont", "ont"],
+                    answer: "a"
+                },
+                {
+                    question: "Nous _____ en retard.",
+                    options: ["êtes", "sommes", "est", "sont"],
+                    answer: "sommes"
+                },
+                {
+                    question: "Ils _____ faim.",
+                    options: ["ont", "ont été", "sont", "seront"],
+                    answer: "ont"
+                },
+                {
+                    question: "J'_____ mon portable.",
+                    options: ["est", "ai", "as", "suis"],
+                    answer: "ai"
+                },
+                {
+                    question: "Tu _____ gentil.",
+                    options: ["es", "suis", "êtes", "est"],
+                    answer: "es"
+                },
+                {
+                    question: "Il _____ beaucoup de devoirs hier.",
+                    options: ["avait", "a eu", "a été", "a"],
+                    answer: "a eu"
+                },
+                {
+                    question: "Vous _____ très patients.",
+                    options: ["avez été", "étiez", "avez", "êtes"],
+                    answer: "avez été"
+                },
+                {
+                    question: "Nous _____ une belle vue.",
+                    options: ["avions", "avons", "avez", "aurons"],
+                    answer: "avions"
+                },
+                {
+                    question: "Elle _____ très fatiguée.",
+                    options: ["est", "est été", "était", "sommes"],
+                    answer: "était"
+                },
+                {
+                    question: "Demain, je _____ le temps.",
+                    options: ["serai", "aurai", "aurais", "auras"],
+                    answer: "aurai"
+                },
+                {
+                    question: "Ils _____ à la maison ce soir.",
+                    options: ["sont", "seront", "aura", "étions"],
+                    answer: "seront"
+                },
+                {
+                    question: "Vous _____ une grande famille.",
+                    options: ["avez", "avez eu", "étiez", "avions"],
+                    answer: "avez"
+                },
+                {
+                    question: "Il _____ français.",
+                    options: ["a", "est", "suis", "sommes"],
+                    answer: "est"
+                },
+                {
+                    question: "Nous _____ un chien.",
+                    options: ["avons", "avez", "ont", "a"],
+                    answer: "avons"
+                },
+                {
+                    question: "Tu _____ au marché.",
+                    options: ["as été", "es", "étais", "a été"],
+                    answer: "as été"
+                },
+                {
+                    question: "J'_____ 15 ans l'année dernière.",
+                    options: ["avais", "ai eu", "étais", "aurai"],
+                    answer: "avais"
+                }
+            ];
+
+            let currentQuestionIndex = 0;
+            const questionText = document.getElementById('question-text');
+            const optionsContainer = document.getElementById('options-container');
+            const checkButton = document.getElementById('check-button');
+            const feedbackElement = document.getElementById('feedback');
+            const quizContainer = document.getElementById('quiz-container');
+
+            function loadQuestion() {
+                const currentQuestion = quizData[currentQuestionIndex];
+                questionText.textContent = currentQuestion.question;
+                optionsContainer.innerHTML = '';
+                feedbackElement.textContent = '';
+                checkButton.style.display = 'block';
+
+                // Shuffle options for each question
+                const shuffledOptions = currentQuestion.options.sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const optionDiv = document.createElement('div');
+                    optionDiv.classList.add('quiz-option', 'rounded-lg', 'overflow-hidden');
+                    optionDiv.innerHTML = `
+                        <input type="radio" id="option-${option}" name="quiz-option" value="${option}">
+                        <label for="option-${option}" class="block p-4 cursor-pointer rounded-lg text-white font-medium">
+                            ${option}
+                        </label>
+                    `;
+                    optionsContainer.appendChild(optionDiv);
+                });
+            }
+
+            function checkAnswer() {
+                const selectedOption = document.querySelector('input[name="quiz-option"]:checked');
+                if (!selectedOption) {
+                    feedbackElement.textContent = "Por favor, selecione uma opção.";
+                    feedbackElement.classList.remove('text-green-400', 'text-red-400');
+                    return;
+                }
+
+                const userAnswer = selectedOption.value;
+                const correctAnswer = quizData[currentQuestionIndex].answer;
+
+                if (userAnswer === correctAnswer) {
+                    feedbackElement.textContent = "Resposta correta! 🎉";
+                    feedbackElement.classList.remove('text-red-400');
+                    feedbackElement.classList.add('text-green-400');
+                    checkButton.style.display = 'none';
+
+                    setTimeout(() => {
+                        currentQuestionIndex++;
+                        if (currentQuestionIndex < quizData.length) {
+                            loadQuestion();
+                        } else {
+                            feedbackElement.textContent = "Parabéns! Você completou o quiz!";
+                            feedbackElement.classList.remove('text-red-400');
+                            feedbackElement.classList.add('text-green-400');
+                            checkButton.style.display = 'none';
+                            optionsContainer.innerHTML = '';
+                            questionText.textContent = "Você é um mestre da conjugação!";
+                        }
+                    }, 1500);
+                } else {
+                    feedbackElement.textContent = "Resposta incorreta. Tente novamente.";
+                    feedbackElement.classList.remove('text-green-400');
+                    feedbackElement.classList.add('text-red-400');
+                }
+            }
+
+            checkButton.addEventListener('click', checkAnswer);
+
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>
